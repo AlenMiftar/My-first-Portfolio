@@ -98,7 +98,7 @@ h4 {
     font-size: 24px;
 }
 
-.c-innehåller, .c-klasser, .c-metoder, .c-variabler, .c-objekt, .merinfo-programmering, .link-programmering {
+.li, .merinfo-programmering, .link-programmering {
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 200;
@@ -117,7 +117,7 @@ body {
     
 }
 
-.copy, .freepik {
+.copy {
     color:whitesmoke;
     background-color: black;
     font-size: 20px;
@@ -125,4 +125,6 @@ body {
 
 footer {
   margin-bottom: -20px;
+  margin-left: -8px;
+  margin-right: -8px;
 }
