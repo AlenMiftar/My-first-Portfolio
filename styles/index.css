@@ -1,126 +1,126 @@
+body {
+  background-image: url(../images/code.jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
 h1 {
-    color:aquamarine;
-    font-size: 60px;
-    font-weight: 400;
-    font-style: italic;
-    text-align:center;
-    background-color:rgb(0, 0, 0, 0.5)
+  color: aquamarine;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.5);
 }
 h2 {
-    color:rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: 600;
-    font-style: normal;
-    text-align: left;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
 }
 
 img {
-    border-width: 2px;
-    border-style:solid;
-    border-color: aquamarine;
-    border-radius: 5px;
-    
+  border-width: 2px;
+  border-style: solid;
+  border-color: aquamarine;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
 }
 
 /* color of link */
 a:visited {
-    color:aquamarine;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color:snow;
-  }
-  
-  /* selected link */
-  a:active {
-    color:aquamarine;
-  }
-  
-  
-
-.intro-li, .second-li, .third-li {
-    color: black;
-    font-size: 22px;
-    font-weight: 1000;
-    font-style: italic;
-    text-align: left;   
-    
+  color: aquamarine;
 }
 
-
-
-.presentation, .inlägg {
-    color:rgb(120, 255, 210);
-    font-size: 20px;
-    font-weight: 900;
-    font-style: italic;
-    text-align: left;
-    background-color: rgb(0, 0, 0, 0.5);
+/* mouse over link */
+a:hover {
+  color: snow;
 }
 
+/* selected link */
+a:active {
+  color: aquamarine;
+}
 
-.mer-info-intensivecode, .link-intensivecode {
-    color:rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 200;
-    text-align: left;
+.intro-li,
+.second-li,
+.third-li {
+  color: black;
+  font-size: 22px;
+  font-weight: 1000;
+  font-style: italic;
+  text-align: left;
+  text-decoration: none;
+}
+
+.presentation,
+.inlägg {
+  color: rgb(120, 255, 210);
+  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
+  text-align: left;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.mer-info-intensivecode,
+.link-intensivecode {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 200;
+  text-align: left;
 }
 
 h3 {
-    color:aquamarine;
-    font-size: 50px;
-    font-weight: 520;
-    font-style: italic;
-    text-align: center;
-    background-color: rgb(0, 0, 0, 0.4);
+  color: aquamarine;
+  font-size: 50px;
+  font-weight: 520;
+  font-style: italic;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.4);
 }
 
 .last-step {
-    color: aquamarine;
-    font-size: 20px;
-    font-weight: 900;
-    font-style: italic;
-    background-color: rgb(0, 0, 0, 0.6);
-
-
+  color: aquamarine;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
+  background-color: rgb(0, 0, 0, 0.6);
 }
 
-.merinfo-sundsgården, .link-sundsgården {
-    color:rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 200;
-    text-align: left;
+.merinfo-sundsgården,
+.link-sundsgården {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 200;
+  text-align: left;
 }
 
 h4 {
-    color: antiquewhite;
-    font-size: 24px;
+  color: antiquewhite;
+  font-size: 24px;
 }
 
-.li, .merinfo-programmering, .link-programmering {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 200;
-    text-align: left;
-}
-
-
-
-body {
-    background-image:url(../images/code.jpg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-    
+.li,
+.merinfo-programmering,
+.link-programmering {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 200;
+  text-align: left;
 }
 
 .copy {
-    color:whitesmoke;
-    background-color: black;
-    font-size: 20px;
+  color: whitesmoke;
+  background-color: black;
+  font-size: 20px;
 }
 
 footer {
