@@ -1,5 +1,6 @@
 body {
-  background-image: url(../images/code.jpg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url(../images/programming-background-with-person-working-with-codes-computer.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -34,25 +35,25 @@ ul {
   list-style: none;
 }
 
-/* color of link */
-a:visited {
-  color: aquamarine;
-}
-
 /* mouse over link */
 a:hover {
-  color: snow;
+  color: aquamarine;
 }
 
 /* selected link */
 a:active {
-  color: aquamarine;
+  color: rgb(209, 0, 0);
+}
+
+/* focus link */
+a:focus {
+  color: rgb(16, 0, 192);
 }
 
 .intro-li,
 .second-li,
 .third-li {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 22px;
   font-weight: 1000;
   font-style: italic;
@@ -127,4 +128,8 @@ footer {
   margin-bottom: -20px;
   margin-left: -8px;
   margin-right: -8px;
+}
+
+.freepik {
+  color: aqua;
 }
