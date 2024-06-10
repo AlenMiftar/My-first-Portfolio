@@ -33,7 +33,7 @@ body {
   align-self: flex-end;
   margin-top: 10px;
   margin-right: 20px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 193, 251, 0.6);
   padding: 10px;
   border-radius: 20px;
 
@@ -43,16 +43,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     list-style: none;
 
     & li {
       & a {
         text-decoration: none;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
 
         &:hover {
-          text-shadow: 0 4px 4px hsla(0, 0%, 0%, 0.4);
+          text-shadow: 0 0 4px hsl(0, 0%, 100%);
         }
       }
     }
