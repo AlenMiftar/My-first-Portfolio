@@ -202,8 +202,8 @@ footer {
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
-  align-self: center;
+  /* justify-content: space-between; */
+  /* align-self: center; */
 }
 
 .freepik {
@@ -232,14 +232,14 @@ footer {
   .title {
     font-size: 26px;
   }
-}
-
-@media screen and (max-width: 375px) {
-  html {
-    overflow-x: hidden;
+  .navbar {
+    margin: 10px auto;
   }
-  .footer-container {
-    flex-direction: column;
+
+  .initial-box,
+  .social-ul,
+  .profil-bild {
+    margin: auto;
   }
 }
 
@@ -247,5 +247,14 @@ footer {
   .lifeChanger {
     width: 100%;
     font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html {
+    overflow-x: hidden;
+  }
+  .footer-container {
+    text-align: center;
   }
 }
