@@ -23,13 +23,13 @@
       <nav class="navbar">
         <ul class="navbar-ul">
           <li>
-            <a href="#projekt">Projekt</a>
+            <a href="#projects">Projekt</a>
           </li>
           <li>
-            <a href="#intro-section">Om mig</a>
+            <a href="#about">Om mig</a>
           </li>
           <li>
-            <a href="#contact-section">Kontakt</a>
+            <a href="#contact">Kontakt</a>
           </li>
         </ul>
       </nav>
@@ -67,7 +67,7 @@
       />
     </header>
     <main>
-      <section class="project-section" id="projekt">
+      <section class="project-section" id="projects">
         <h2>Projekt</h2>
         <p>
           Nedanför kan ni se några av mina projekt. klicka på LIVE DEMO för att
@@ -201,7 +201,7 @@
           </div>
         </div>
       </section>
-      <section id="intro-section">
+      <section id="about">
         <h2 class="rubriker">Om mig</h2>
         <p class="p-text">
           <b
@@ -330,20 +330,35 @@
           >
         </p>
       </section>
-      <section id="contact-section">
+      <section id="contact">
         <form id="contact-form" action="#" method="post" class="contact-form">
           <h2>Kontakt</h2>
           <div class="form-group">
             <label for="name">Namn</label>
-            <input type="text" id="name" name="name" />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Fyll i ert namn"
+            />
           </div>
           <div class="form-group">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Fyll i ert email"
+            />
           </div>
           <div class="form-group">
             <label for="message">Meddelande</label>
-            <textarea id="message" name="message" rows="5"></textarea>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Ert meddelande"
+            ></textarea>
           </div>
           <button type="submit" class="submit-btn">Skicka</button>
         </form>

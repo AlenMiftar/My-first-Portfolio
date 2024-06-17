@@ -8,7 +8,7 @@ function sendEmail(e) {
   const message = document.getElementById("message").value;
 
   if (!name || !email || !message) {
-    alert("Fyll in alla fält tack!");
+    alert("Fyll i alla fält tack!");
     return;
   }
   emailjs
