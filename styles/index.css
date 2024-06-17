@@ -202,30 +202,27 @@ a:focus {
   text-align: center;
 }
 
-.contact-section {
-  margin: 20px auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  & h2 {
-    font-size: 38px;
-    color: azure;
-  }
-  & p {
-    color: azure;
-  }
-}
-
 .contact-form {
   margin: 20px auto;
-  max-width: 500px;
+  max-width: 400px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  h2 {
+    color: azure;
+    font-size: 32px;
+  }
+
+  & .form-group {
+    margin: 10px auto;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 
   & label {
     color: azure;
@@ -233,6 +230,7 @@ a:focus {
 
   & .submit-btn {
     background-color: aqua;
+    width: 100%;
   }
 }
 
