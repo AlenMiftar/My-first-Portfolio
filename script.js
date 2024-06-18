@@ -35,8 +35,18 @@ document.querySelectorAll("a.smooth-scroll").forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
 
-    document.querySelector(this.getAttribute("href")).scrollIntoView({
-      behavior: "smooth",
-    });
+    const targetId = this.getAttribute("href");
+    const targetElement = document.querySelector(targetId);
+
+    console.log("Anchor clicked:", targetId);
+    console.log("Target element:", targetElement);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: "smooth",
+      });
+    } else {
+      console.error("Target element not found:", targetId);
+    }
   });
 });
