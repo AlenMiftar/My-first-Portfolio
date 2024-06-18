@@ -1,3 +1,4 @@
+// Contact
 emailjs.init("o8QFGd5JPp5HiYGWf");
 
 function sendEmail(e) {
@@ -27,5 +28,15 @@ function sendEmail(e) {
       }
     );
 }
-
 document.getElementById("contact-form").addEventListener("submit", sendEmail);
+
+// Smooth navigation:
+document.querySelectorAll("a.smooth-scroll").forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});
