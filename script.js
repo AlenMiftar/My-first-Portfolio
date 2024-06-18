@@ -1,4 +1,4 @@
-// Contact form
+// Contact form send email
 emailjs.init("o8QFGd5JPp5HiYGWf");
 
 function sendEmail(e) {
@@ -51,7 +51,7 @@ document.querySelectorAll("a.smooth-scroll").forEach((anchor) => {
   });
 });
 
-// Scroll to top
+// Scroll to top Btn
 let mybutton = document.getElementById("myBtn");
 
 window.onscroll = function () {

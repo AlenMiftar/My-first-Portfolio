@@ -55,27 +55,6 @@ body {
   }
 }
 
-#myBtn {
-  display: none;
-  vertical-align: middle;
-  text-align: center;
-  position: fixed;
-  bottom: 50px;
-  right: 6px;
-  z-index: -1;
-  border: none;
-  outline: none;
-  background-color: rgba(0, 193, 251, 0.6);
-  color: white;
-  cursor: pointer;
-  border-radius: 50px;
-  font-size: 18px;
-}
-
-#myBtn:hover {
-  scale: 1.1;
-}
-
 .title-box {
   width: 100%;
   display: flex;
@@ -143,6 +122,29 @@ body {
   border-color: aquamarine;
   border-radius: 5px;
   margin-right: 20px;
+}
+
+#myBtn {
+  width: 30px;
+  height: 30px;
+  display: none;
+  vertical-align: middle;
+  text-align: center;
+  position: fixed;
+  bottom: 50px;
+  right: 5px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 193, 251, 0.6);
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  scale: 1.1;
 }
 
 .project-section {
@@ -273,8 +275,6 @@ footer {
   max-width: 350px;
   width: 100%;
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
   background-color: rgba(0, 193, 251, 0.3);
   border-radius: 8px;
 }
@@ -345,8 +345,8 @@ footer {
     position: fixed;
     margin-bottom: 10px;
     bottom: 100px;
-    right: 2px;
-    z-index: -1;
+    right: 1px;
+    z-index: 99;
     border: none;
     outline: none;
     background-color: rgba(0, 193, 251, 0.6);
@@ -368,9 +368,3 @@ footer {
     width: 90%;
   }
 }
-
-/* @media screen and (max-width: 320px) {
-  #myBtn {
-    display: block;
-  }
-} */
