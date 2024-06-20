@@ -139,7 +139,7 @@ body {
   background-color: rgba(0, 193, 251, 0.6);
   color: white;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 100%;
   font-size: 18px;
 }
 
@@ -280,19 +280,18 @@ footer {
 }
 
 .footer-container {
-  max-width: 320px;
-  margin: auto;
+  width: 100%;
+  margin: 0px auto;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .copy {
   color: whitesmoke;
-  font-size: 20px;
-  padding: 5px;
+  font-size: 18px;
 }
 .freepik {
   color: aqua;
@@ -334,37 +333,22 @@ footer {
 
 @media screen and (max-width: 424px) {
   .lifeChanger {
-    width: 100%;
-    font-size: 38px;
-  }
-}
-
-@media screen and (max-width: 424px) {
-  #myBtn {
-    display: block;
-    position: fixed;
-    margin-bottom: 10px;
-    bottom: 100px;
-    right: 1px;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: rgba(0, 193, 251, 0.6);
-    color: white;
-    cursor: pointer;
-    border-radius: 50px;
-    font-size: 18px;
+    font-size: 33px;
   }
 }
 
 @media screen and (max-width: 376px) {
-  html {
-    overflow-x: hidden;
-  }
-  .footer-container {
-    text-align: center;
-  }
   footer {
-    width: 90%;
+    width: 75%;
+  }
+  #myBtn {
+    right: 2px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #myBtn {
+    width: 27px;
+    height: 27px;
+    right: 1px;
   }
 }
