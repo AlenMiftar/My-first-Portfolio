@@ -2,11 +2,6 @@
 
 html,
 body {
-  height: 100%;
-  margin: 0;
-}
-
-body {
   font-family: "Open Sans", sans-serif;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
     url(../images/programming-background-with-person-working-with-codes-computer.webp);
